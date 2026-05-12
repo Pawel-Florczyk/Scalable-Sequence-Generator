@@ -24,15 +24,18 @@ A professional Python tool for generating and managing numerical sequences (like
 │   └── tests.py         # Professional test suite (Logic & I/O)
 ├── requirements.txt     # Project dependencies
 └── .flake8              # Linter configuration
+```
 
 ## Testing
 
 The project uses `pytest` to ensure code reliability and data integrity. The test suite covers generator logic, edge cases, and file I/O operations.
-
+  
 ### 1. Install Testing Dependencies
 Ensure you have `pytest` installed in your environment:
 ```bash
 pip install pytest
-
-### 2. Use Command
+```
+### 2. Use command
+```console
 pytest tests/tests.py
+```
