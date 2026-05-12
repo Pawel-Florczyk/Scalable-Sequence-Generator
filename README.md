@@ -36,6 +36,7 @@ Ensure you have `pytest` installed in your environment:
 pip install pytest
 ```
 ### 2. Use command
-```console
+
+```bash
 pytest tests/tests.py
 ```
