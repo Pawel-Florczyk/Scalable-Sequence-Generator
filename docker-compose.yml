@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  test-runner:
+    image: scalable-sequence-generator
+    volumes:
+      - .:/app
+    command: pytest tests.py
