@@ -5,4 +5,4 @@ services:
     image: scalable-sequence-generator
     volumes:
       - .:/app
-    command: pytest tests.py
+    command: pytest tests/tests.py
