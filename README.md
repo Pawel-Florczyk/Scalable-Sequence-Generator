@@ -51,4 +51,15 @@ docker build -t scalable-sequence-generator .
 ```bash
 docker run -v .:/app scalable-sequence-generator pytest tests/tests.py
 ```
-#
+## Local testing (without docker):
+
+1. Install Testing Dependencies
+Ensure you have pytest installed in your environment:
+```bash
+pip install pytest
+```
+
+2. Use command
+```bash
+pytest tests/tests.py
+```
