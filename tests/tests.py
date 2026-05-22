@@ -7,7 +7,7 @@ class TestSequenceLogic:
 
     def test_incorrect_type_of_data(self):
         with pytest.raises(ValueError):
-            SequenceGenerator("manager", 0, "s")
+            SequenceGenerator("manager", 0, "n")
 
 class TestSequenceIO:
 
