@@ -40,7 +40,7 @@ A professional Python tool for generating, managing, and streaming high-volume n
 docker compose up test-runner
 ```
 
-## Running Tests via Docker (Alternative):
+## Running Tests via Docker:
 
 1. Building an image
 ```bash
